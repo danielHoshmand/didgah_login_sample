@@ -1,0 +1,9 @@
+{
+  "title": "چت بات",
+  "login": "ورود",
+  "server_url": "آدرس سرور",
+  "username": "نام کاربری",
+  "invalid_server": "لطفا سرور معتبر وارد کنید",
+  "invalid_username": "لطفا نام کاربری معتبر وارد کنید",
+  "secure_connection": "اتصال امن"
+}

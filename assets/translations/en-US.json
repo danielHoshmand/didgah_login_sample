@@ -1,0 +1,9 @@
+{
+  "title": "Chat Bot",
+  "login": "Login",
+  "server_url": "Server Url",
+  "username": "Username",
+  "invalid_server": "Invalid server",
+  "invalid_username": "Invalid username",
+  "secure_connection": "Secure connection"
+}
