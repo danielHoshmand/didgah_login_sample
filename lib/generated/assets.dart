@@ -2,11 +2,12 @@
 class Assets {
   Assets._();
 
-  static const String fontsIranSansMobileLight = 'assets/fonts/iran_sans_mobile_light.ttf';
+  static const String fontsIranSansMobileLight =
+      'assets/fonts/iran_sans_mobile_light.ttf';
   static const String imagesBg = 'assets/images/bg.jpg';
-  static const String imagesIcLogoChargoon = 'assets/images/ic_logo_chargoon.xml';
+  static const String imagesIcLogoChargoon =
+      'assets/images/ic_logo_chargoon.xml';
   static const String imagesIcLogoDidgah = 'assets/images/ic_logo_didgah.xml';
   static const String translationsEnUS = 'assets/translations/en-US.json';
   static const String translationsFaIR = 'assets/translations/fa-IR.json';
-
 }
