@@ -17,7 +17,6 @@ class _LoginScreenOneState extends State<LoginScreenOne> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Spacer(),
           TextFormField(
             style: const TextStyle(color: Colors.white),
             autofocus: true,
@@ -66,7 +65,6 @@ class _LoginScreenOneState extends State<LoginScreenOne> {
             onPressed: () {},
             child: Text(tr('login')),
           ),
-          const Spacer(),
         ],
       ),
     );
