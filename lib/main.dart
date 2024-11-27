@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       supportedLocales: const [Locale('en', 'US'), Locale('fa', 'IR')],
       path: 'assets/translations',
       // <-- change the path of the translation files
-      fallbackLocale:  const Locale('en', 'US'),
+      fallbackLocale: const Locale('en', 'US'),
       startLocale: const Locale('fa', 'IR'),
       child: const MyApp(),
     );

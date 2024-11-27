@@ -1,9 +1,10 @@
 import 'package:didgah_login_sample/login/screens/login_screen_one.dart';
 import 'package:didgah_login_sample/login/screens/login_template_screen.dart';
+import 'package:didgah_login_sample/secound_design/login_screen_one_two.dart';
+import 'package:didgah_login_sample/secound_design/login_template_screen_two.dart';
+import 'package:didgah_login_sample/secound_design/theme/theme.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-
-import 'login/screens/full_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -16,12 +17,19 @@ class MyApp extends StatelessWidget {
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       title: 'Flutter Demo',
-      theme: ThemeData(
+      darkTheme: ThemeData(
         fontFamily: 'IranianSans',
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: MaterialSchemeColors.darkScheme()
+            .toColorScheme(), // ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginTemplateScreen(content: LoginScreenOne()),
+      theme: ThemeData(
+        fontFamily: 'IranianSans',
+        colorScheme: MaterialSchemeColors.lightScheme()
+            .toColorScheme(), // ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: LoginTemplateScreenTwo(content: LoginScreenOneTwo()),
     );
   }
 }

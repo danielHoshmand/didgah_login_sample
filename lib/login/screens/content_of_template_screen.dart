@@ -11,9 +11,9 @@ class ContentOfTemplateScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisSize: MainAxisSize.max,
       children: [
         const Spacer(),
+        const SizedBox(height: 36),
         SvgPicture.asset(
           'assets/images/ic_logo_didgah.svg',
           semanticsLabel: 'My SVG Picture',
@@ -24,10 +24,11 @@ class ContentOfTemplateScreen extends StatelessWidget {
         BlurScreen(
           content: Padding(
             padding: const EdgeInsets.all(25),
-            child: content,
+            child: Container(child: content),
           ),
         ),
         const Spacer(),
+        const SizedBox(height: 36),
         SvgPicture.asset(
           'assets/images/ic_logo_chargoon.svg',
           semanticsLabel: 'My SVG Picture',

@@ -12,7 +12,7 @@ class BlurScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return IntrinsicHeight(
       child: Container(
-        width: double.infinity,
+        constraints: const BoxConstraints(maxWidth: 450),
         margin: const EdgeInsets.symmetric(horizontal: 32),
         decoration: BoxDecoration(
           border: Border.all(color: Colors.white),
